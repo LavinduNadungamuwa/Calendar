@@ -40,11 +40,20 @@
 .left{
     width: 58%;
 }
+
+.info-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    margin-top: 20px;
+}
+
 #date{
     font-size: 100px;
     line-height: 90px;
 }
-#time {
+#weather, #time {
     color: white;
     font-size: 1.5rem;
     text-align: center;
