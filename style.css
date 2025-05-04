@@ -9,6 +9,7 @@
     min-height: 100vh;
     background: linear-gradient(45deg, #1d0000, #20205b);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -17,6 +18,7 @@
     height: 250px;
     background: white;
     display: flex;
+    justify-content: space-between;
     border-radius: 10px;
     align-items: center;
 }
@@ -41,5 +43,10 @@
 #date{
     font-size: 100px;
     line-height: 90px;
-
+}
+#time {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
 }
